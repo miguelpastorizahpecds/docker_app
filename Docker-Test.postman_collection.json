@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "8174de2d-2817-4317-a88b-4c0313f212ea",
+		"name": "Docker-Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25934439"
+	},
+	"item": [
+		{
+			"name": "GetMessages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/messages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"messages"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
